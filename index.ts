@@ -4,10 +4,11 @@
 
 import {vec3} from 'gl-matrix';
 import THREE = require('three');
+import {Cow} from "./src/Cow";
 
 export * from 'three'
 export * from 'gl-matrix'
-
+export * from './src/Cow';
 
 export function test(){
     let scene = new THREE.Scene();
@@ -15,9 +16,8 @@ export function test(){
 
     console.log(scene);
     console.log(a);
+    let b:Cow;
+    b.name = "abc";
+    b.age = 4;
 }
 
-export interface cow {
-    name: string;
-    age: number;
-}

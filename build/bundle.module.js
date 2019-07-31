@@ -10,6 +10,9 @@ function test() {
     var a = vec3.create();
     console.log(scene);
     console.log(a);
+    var b;
+    b.name = "abc";
+    b.age = 4;
 }
 
 export { test };

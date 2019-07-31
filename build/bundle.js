@@ -12,6 +12,9 @@
         var a = glMatrix.vec3.create();
         console.log(scene);
         console.log(a);
+        var b;
+        b.name = "abc";
+        b.age = 4;
     }
 
     Object.keys(glMatrix).forEach(function (k) {
