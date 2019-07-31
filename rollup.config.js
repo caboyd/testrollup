@@ -7,7 +7,7 @@ export default {
 	output: [
 		{
 			format: "umd",
-			name: 'IWO',
+			name: 'TEST',
 			file: "build/bundle.js",
 		},
 		{
@@ -21,6 +21,6 @@ export default {
 	],
 	external: [
 		'gl-matrix',
-		'Three',
+		'three',
 	]
 }

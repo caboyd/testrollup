@@ -1,6 +1,6 @@
 import { vec3 } from 'gl-matrix';
 export * from 'gl-matrix';
-export * from 'Three';
+export * from 'three';
 
 /**
  * Created by Chris on Jul, 2019

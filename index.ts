@@ -3,9 +3,9 @@
  */
 
 import {vec3} from 'gl-matrix';
-import THREE = require('Three');
+import THREE = require('three');
 
-export * from 'Three'
+export * from 'three'
 export * from 'gl-matrix'
 
 

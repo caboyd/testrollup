@@ -20,5 +20,9 @@
   "dependencies": {
     "gl-matrix": "^3.0.0",
     "three": "^0.107.0"
+  },
+  "peerDependencies": {
+    "gl-matrix": "^3.0.0",
+    "three": "^0.107.0"
   }
 }
